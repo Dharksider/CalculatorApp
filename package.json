@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "d-app",
+  "version": "1.0.0",
+  "main": "cal.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
