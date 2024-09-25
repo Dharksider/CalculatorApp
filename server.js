@@ -9,7 +9,7 @@ app.use(express.json());
 app.use('/calculate', userRouter);
 
 app.get('/', (req, res) => {
-    res.send('Hello world');
+    res.send('This is the llanding page of my Calculator, Welcome ');
     res.status(200).json
 })
 app.listen(PORT, () => {
