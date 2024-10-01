@@ -5,13 +5,13 @@ const {getAddHandler, getSubHandler, getDivHandler, getMultHandler} = require('.
 
 //const users = []; //simulated database
 
-router.get('/add', getAddHandler)
+router.post('/add', getAddHandler)
 
-router.get('/subtract', getSubHandler)
+router.post('/subtract', getSubHandler)
 
-router.get('/divide', getDivHandler)
+router.post('/divide', getDivHandler)
 
-router.get('/multiply', getMultHandler)
+router.post('/multiply', getMultHandler)
 
 
 // router.post('/operate', deleteUserHandler)
