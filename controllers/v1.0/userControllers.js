@@ -6,7 +6,7 @@ const getAddHandler = async (req, res) => {
     {const {varA , varB} = req.body;
    
     if ((typeof varA && typeof varB) === 'number' && isFinite(varA && varB))   
-    {       console.log(' I am here')
+    {       
                 res.status(200).json((varA + varB)); 
             
                            
@@ -20,7 +20,7 @@ const getAddHandler = async (req, res) => {
         try 
         {const {varA , varB} = req.body;
             if ((typeof varA && typeof varB) === 'number' && isFinite(varA && varB))   
-        {       console.log(' I am here')
+        {       
                     res.status(200).json((varA - varB)); 
                 
                                
@@ -33,9 +33,9 @@ const getAddHandler = async (req, res) => {
  const getMultHandler = async (req, res) => {
             try 
             {const {varA , varB} = req.body;
-            console.log('hERE')
+           
             if ((typeof varA && typeof varB) === 'number' && isFinite(varA && varB))   
-            {       console.log(' I am here')
+            {      
                         res.status(200).json((varA * varB)); 
                     
                                    
