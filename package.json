@@ -1,17 +1,18 @@
 {
+  "name": "d-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Darksider",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.0"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "name": "d-app",
-  "version": "1.0.0",
-  "main": "cal.js",
-  "devDependencies": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
+ 
 }
